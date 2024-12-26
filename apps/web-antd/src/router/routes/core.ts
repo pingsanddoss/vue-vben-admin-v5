@@ -30,6 +30,14 @@ const coreRoutes: RouteRecordRaw[] = [
     redirect: DEFAULT_HOME_PATH,
   },
   {
+    name: 'SalaryPreview',
+    path: '/salaryPreview',
+    component: () => import('#/views/sms/salary/salarypreview/index.vue'),
+    meta: {
+      title: '白雪工资条',
+    },
+  },
+  {
     component: AuthPageLayout,
     meta: {
       hideInTab: true,

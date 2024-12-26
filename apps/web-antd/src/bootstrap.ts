@@ -7,6 +7,7 @@ import '@vben/styles';
 import '@vben/styles/antd';
 
 import { useTitle } from '@vueuse/core';
+import Antd from 'ant-design-vue';
 
 import { $t, setupI18n } from '#/locales';
 
@@ -41,6 +42,8 @@ async function bootstrap(namespace: string) {
       useTitle(pageTitle);
     }
   });
+
+  app.use(Antd);
 
   app.mount('#app');
 }
