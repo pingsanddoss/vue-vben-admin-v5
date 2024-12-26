@@ -175,7 +175,8 @@ function formSchema1() {
 
   props.info.data[1].forEach((item: any, index: any) => {
     // itemNew.value = JSON.parse(JSON.stringify(item));
-    itemNew.value = structuredClone(item);
+    itemNew.value = cloneDeep(item);
+    // itemNew.value = structuredClone(item);
     itemNew.value.id = index + 1;
     itemNew.value.key = index + 1;
     dataSource.value.push(itemNew.value);
