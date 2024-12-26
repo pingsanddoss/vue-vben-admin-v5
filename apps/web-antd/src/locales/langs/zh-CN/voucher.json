@@ -1,0 +1,17 @@
+{
+  "title": "财务管理",
+  "antd": "Ant Design Vue",
+  "vben": {
+    "title": "项目",
+    "about": "关于",
+    "document": "文档",
+    "antdv": "Ant Design Vue 版本",
+    "naive-ui": "Naive UI 版本",
+    "element-plus": "Element Plus 版本"
+  },
+  "create": "新增凭证",
+  "salary": "新增工资条",
+  "salaryList": "工资发送记录",
+  "sendList": "短信发送记录",
+  "sysQuartz": "定时任务"
+}

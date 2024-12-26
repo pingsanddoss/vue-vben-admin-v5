@@ -16,7 +16,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "pnpm vite build --mode production",
+    "build": "pnpm vite build --mode development",
     "build:analyze": "pnpm vite build --mode analyze",
     "dev": "pnpm vite --mode development",
     "preview": "vite preview",
@@ -43,8 +43,17 @@
     "@vueuse/core": "catalog:",
     "ant-design-vue": "catalog:",
     "dayjs": "catalog:",
+    "element-ui": "^2.15.14",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "nzh": "^1.0.14",
     "pinia": "catalog:",
+    "throttle-debounce": "^5.0.2",
     "vue": "catalog:",
-    "vue-router": "catalog:"
+    "vue-router": "catalog:",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12"
   }
 }
